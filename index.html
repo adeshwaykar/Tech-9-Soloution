@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="" alt=""/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link "  href="#top">HOME</a>
+                  <a class="nav-link" href="#services">SERVICES</a>
+                  <a class="nav-link" href="#about-us">ABOUT US</a>
+                  <a class="nav-link " href="#testtimonial" >TESTIMONIALS</a>
+                  <a class="nav-link " href="#footer" >CONTACT</a>
+
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </section>
+    
+    <!-- banner section -->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="wrapper five">
+                        <span class="float-box">
+                            <h3 class="float"><i>TECH 9 SOLUTION</i> </h3>
+                        </span>
+                    </div>
+                    
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi consequatur voluptatibus sapiente reiciendis dolores a veniam impedit ipsa </p>
+                     <a href=""><img src="#" alt="logo" class="play-btn"></a>watch more avout us
+                </div>
+                <div class="col-md-6">
+                    <img src="home2.png" alt="" class=" bounce img-fluid">
+                </div>
+            </div>
+        </div>
+        <img src="wave1.png" alt="" class="bottome-ima">
+    </section>
+
+    <!--Services section-->
+    <section id="services">
+        <div class="container text-center">
+            <h1 class="title">WHAT WE DO</h1>
+             <div class="row text-center">
+                <div class="col-md-4 animated bounce infinite services">
+                    <img src="service1.png" alt="" class=" service-img" >
+                    <h4>Growth Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="service2.png" alt="" class="service-img">
+                    <h4>Online Banking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="service3.png" alt="" class="service-img">
+                    <h4>Animation</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+             </div>
+             <div class="row text-center" id="hide">
+                <div class="col-md-4 services">
+                    <img src="service1.png" alt="" class="service-img">
+                    <h4>Growth Marketing</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="service2.png" alt="" class="service-img">
+                    <h4>Online Banking</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+                <div class="col-md-4 services">
+                    <img src="service3.png" alt="" class="service-img">
+                    <h4>Animation</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates laboriosam vel porro, impedit, quibusdam et iste, nostrum harum autem est laborum.</p>
+                </div>
+             </div>
+             <button type="button" onclick="hideServices()" id="buttonHide" class="btn btn-primary">Show Less</button>
+
+             <button type="button" onclick="allServicess()" id="allServicess" class="btn btn-primary">All Services</button>
+        </div>
+    </section>
+
+    <!--About Us-->
+    <section id="about-us">
+        <div class="container">
+            <h1 class="title text-center">
+                WHY CHOOSE US
+            </h1>
+            <div class="row">
+                <div class="col-md-6 about-us">
+                    <p class="about-title">
+                        Why we're different
+                    </p>
+                    <ul>
+                        <li>Individual approach</li>
+                        <li>Software experts with a business mindset</li>
+                        <li>Quality software product</li>
+                        <li>Software project rescue</li>
+                        <li>Trusted tech partner </li>
+                        <li>No red tape </li>
+                        <li>Security in good hands</li>
+                        <li>Committed team</li>
+                        <li>Support of QA
+
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="network.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testtimonial-->
+    <section id="testtimonial">
+        <div class="container">
+            <h1 class="title text-center">
+               WHAT CLIENT SAY
+            </h1>
+            <div class="row offset-1">
+                <div class="col-md-5 testtimonial">
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut 
+                    exercitationem tenetur excepturi quidem numquam magni tempore, natus ea</p>
+                  <img src="user1.jpg" alt="">
+                  <p class="user-details">
+                    <b>Agelina</b><br>Co-founder of xyz
+                  </p>
+                </div>
+                <div class="col-md-5 testtimonial">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut 
+                     exercitationem tenetur excepturi quidem numquam magni tempore, natus ea</p>
+                   <img src="user2.jpg" alt="">
+                   <p class="user-details">
+                     <b>John Doe</b><br>Director of xyz
+                   </p>
+                 </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--social media-->
+    <section id="social-media">
+        <div class="conatiner text-center">
+            <p> “If future generations are to remember us more with gratitude than sorrow,
+                 we must achieve more than just the miracles of technology. <br>We must also leave them
+                  a glimpse of the world as it was created,
+                 not just as it looked when we got through with it.”</p>
+                 <b>Lyndon B. Johnson</b>
+        </div>
+    </section>
+    <!--- footer section--->
+    <section id="footer">
+        <img src="wave2.png" alt="" class="footer-img">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-box">
+                    <img src="demo-logo.png" alt="">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia at inventore necessitatibus sit?
+                         Quo, a iste? Veniam tempora delectus, iure sit obcaecati 
+                    </p>
+                </div>
+                <div class="col-md-4 footer-box">
+                    <p><b>CONTACT</b></p>
+                    <p><i class="fa fa-map-marker"></i>
+                        Tech 9 solution ,vimannager,pune</p>
+                    <p><i class="fa fa-phone"></i>
+                        +91 8965821369</p>
+                    <p><i class="fa fa-envelope-o" ></i>
+                        Tech@gmail.com</p>
+
+              </div>
+
+              <div class="col-md-4 footer-box">
+                <p><b>SUBSCRIBE NEWSLETTER</b></p>
+                <input type="email" class="form-control" placeholder="your email">
+                 <button type="button" class="btn btn-primary">Subscribe</button>
+          </div>
+            </div>
+          </div>
+    </section>
+
+
+    
+
+    <!--smoot scroll script-->
+<script src="script.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll=new SmoothScroll('a[href*="#"]');
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--.footer-box .btn-primary{
+        box-shadow: none !important;
+        border: none;
+        border-radius: 0;
+        margin-top: 30px;
+                  background-image: linear-gradient(to right,#a517ba,#5f1782);
+
+    }-->
